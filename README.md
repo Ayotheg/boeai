@@ -1,0 +1,2 @@
+Boe AI is an innovative platform I built to showcase and advertise a cutting-edge AI technology. Designed to help users explore the capabilities of artificial intelligence, Boe AI offers insights, tools, and resources to demonstrate how AI can transform industries. Whether you're looking to understand AI better or integrate it into your workflow, Boe AI provides a clear, user-friendly interface to explore its potential.
+ link: https://ayotheg.github.io/boeai/
