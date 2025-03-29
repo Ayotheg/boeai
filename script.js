@@ -18,3 +18,26 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const fadeElements = document.querySelectorAll(".fade-in");
+      
+        const checkVisibility = () => {
+          console.log("Checking visibility..."); // Debugging
+          fadeElements.forEach((element) => {
+            const elementTop = element.getBoundingClientRect().top;
+            const elementBottom = element.getBoundingClientRect().bottom;
+            const isVisible = elementTop < window.innerHeight && elementBottom >= 0;
+      
+            if (isVisible) {
+              console.log("Element is visible:", element); // Debugging
+              element.style.opacity = 1;
+              element.style.transform = "translateY(0)";
+            }
+          });
+        };
+      
+        window.addEventListener("scroll", checkVisibility);
+        window.addEventListener("resize", checkVisibility);
+        checkVisibility(); // Check on page load
+      });
