@@ -3,82 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Website</title>
+    <title>Boe AI - Unleash the Power of AI for Students and Professionals</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <script src="script.js"></script>
+    <script defer src="script.js"></script>
+    <meta name="description" content="Boe AI is a versatile AI assistant for students, professionals, and writers. Try it now and revolutionize your workflow!">
 </head>
+
 <body>
-  <h5 class="pt-3">Boe AI</h5>
-   <div class="container-fluid">
-    <header class="head" style="margin-top: 10px;">
-        <ul class="nav"style="font-weight: 500;">
-            <h5 class="pt-2">Boe AI</h5>
-            <div class="container">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Testimonials</a>
-            </li>
-            <button class="btn" style="background-color: lime; border-radius: 50px; border-spacing: 5px 5px 5px 30px;">Sign In</button>
-        </div>
-          </ul>
-    </header>
+  <div class="container-fluid">
+  <header class="head" style="margin-top: 10px;">
+      <ul class="nav" style="font-weight: 500;">
+          <li class="nav-item">
+              <h5 class="pt-2">Boe AI</h5>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <button class="btn button-hover" style="background-color: lime; border-radius: 50px; border-spacing: 5px 5px 5px 30px;">Sign In</button>
+          </li>
+      </ul>
+  </header>
 
-    <button id="toggle-btn" class="toggle-btn">☰</button>
+  <!-- Toggle Button -->
+<button id="toggle-btn" class="toggle-btn">☰</button>
 
-    <div id="sidebar" class="sidebar">
-        <nav class="menu">
+<!-- Sidebar Navigation -->
+<div id="sidebar" class="sidebar">
+  <nav class="menu">
     <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Communities</a></li>
-            <li><a href="#">Groups</a></li>
-            <li><a href="#">Networking</a></li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Communities</a></li>
+      <li><a href="#">Groups</a></li>
+      <li><a href="#">Networking</a></li>
     </ul>
-    </nav>
-    </div>
+  </nav>
+</div>
 
-            <!--Hero-->
-        <div class="container-fluid">
-            <section class="section" style="background-color: #000000; max-height: 900px; border-radius: 50px 50px 50px 50px; margin-top: 30px; overflow: hidden; scroll-snap-align: start;">
-            <img src="img/Iphone mockup.png" alt="Iphone Mockup" class="phone">
-        <div class="container-fluid diver" style="margin-top: -150px;" >
-                    <article class="art" style="display: flex-box; flex-wrap: wrap; color: silver; position: relative; left: 500px; top: -300px;">
-                    <h2 style="color: #fff;">Unleash the full potential of AI</h2>
-                    <p>Boe AI is a versatile assistant that utilizes state-of-the-art <br>natural language processing to provide real-time support <br> and assistance across various domains</p>
-                    </article>
-                <div class="container2" style="display: flex; position: relative; left: 00px; top: -300px;">
-                <button style="background-color: lime; border-radius: 500px;padding:5px 5px 5px 80px; border-style: none;  text-align: center; ">Get the App</button>
-                <p class="p">More</p>
-                </div>
-            <div style="margin-top: -500px; display: flex; color: #fff; position: relative; left: 500px; top: 210px;">
-                <article style="font-size: small;">
-                <h1>4.8</h1>
-                <p>Rating on AppStore</p>
-            </article>
-            <article style="padding-left: 25px; font-size: small;">
-                <h1>700k+</h1>
-                <p>Active Users</p>
-            </article>
-            </div>
-            </div>
-    </div>
-    </section>
-    </div>
+  <!--Hero-->
+<div class="container-fluid ">
+  <section class="hero-section  fade-in" style="background-color: #000000; border-radius: 50px; margin-top: 30px; overflow: hidden; scroll-snap-align: start; padding: 2rem 1rem; position: relative;">
+      <div class="row">
+          <!-- Mobile-first approach with flexbox layout -->
+          <div class="col-12 col-md-6 text-center text-md-start order-2 order-md-1">
+              <div class="hero-content" style="color: silver; margin-top: 2rem;">
+                  <h2 style="color: #fff; font-size: clamp(1.5rem, 5vw, 2.5rem);">Unleash the full potential of AI</h2>
+                  <p style="margin-bottom: 2rem; max-width: 100%;">Boe AI is a versatile assistant that utilizes state-of-the-art natural language processing to provide real-time support and assistance across various domains</p>
+                  
+                  <div class="action-buttons" style="display: flex; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem;">
+                      <button style="background-color: lime; border-radius: 500px; padding: 0.5rem 1.5rem; border: none; text-align: center; font-weight: bold;" class="button-hover">Get the App</button>
+                      <p class="more-link" style="margin: 0; cursor: pointer;">More</p>
+                  </div>
+                  
+                  <div class="stats-container" style="display: flex; color: #fff; gap: 2rem; flex-wrap: wrap;">
+                      <div class="stat-item">
+                          <h3 style="font-size: clamp(1.2rem, 4vw, 2rem); margin-bottom: 0.5rem;">4.8</h3>
+                          <p style="margin: 0;">Rating on AppStore</p>
+                      </div>
+                      <div class="stat-item">
+                          <h3 style="font-size: clamp(1.2rem, 4vw, 2rem); margin-bottom: 0.5rem;">700k+</h3>
+                          <p style="margin: 0;">Active Users</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <!-- Phone image container -->
+          <div class="col-12 col-md-6 text-center order-1 order-md-2">
+              <img src="img/Iphone mockup.png" alt="Iphone Mockup" class="img-fluid" style="max-height: 80vh; max-width: 100%; object-fit: contain;">
+          </div>
+      </div>
+  </section>
+</div>
 <!--Hero End-->
 
 <!--Body-->
-<div class="container-fluid" style="margin-top: 40px;">
+<div class="container-fluid  fade-in delay-1" style="margin-top: 40px; ">
   <section>
-    <h1 style="color: #000000;">Different destinations</h1>
+    <h1 style="color:#000000;">Different destinations</h1>
     <article style="display: flex !important; margin-top: 10px;" class="art2">
         <p style="font-size: smaller;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>Eaque, rem maxime impedit libero nisi odio nam cupiditate ut dolores <br>ipsa suscipit perspiciatis labore! Voluptatum</p>
         <p style="font-size: smaller; padding-left: 50px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>Eaque, rem maxime impedit libero nisi odio nam cupiditate ut dolores <br>ipsa suscipit perspiciatis labore! Voluptatum </p>
@@ -87,21 +100,21 @@
 
     <div class="card-group">
         <div class="card">
-          <img src="img/image-1735274088277.png" class="card-img-top" alt="...">
+          <img src="img/image-1735274088277.png" class="card-img-top" alt=" ai-tools-for-students.png">
           <div class="card-body">
             <h5 class="card-title">Students</h5>
             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum quae dolores expedita quis, quam velit dolorum ipsum, voluptatem error hic enim, magnam impedit voluptates temporibus fugit a commodi doloribus nostrum?</p>
           </div>
         </div>
         <div class="card">
-          <img src="img/image-1735274013871.png" class="card-img-top" alt="...">
+          <img src="img/image-1735274013871.png" class="card-img-top" alt=" ai-tools-for-students.png">
           <div class="card-body">
             <h5 class="card-title">Professionals</h5>
             <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia hic beatae doloribus quam, consequatur, quo vel ratione corporis consectetur dolore suscipit laborum commodi eos modi esse nulla quae atque officiis.</p>
           </div>
         </div>
         <div class="card">
-          <img src="img/image-1735274088277.png" class="card-img-top" alt="...">
+          <img src="img/image-1735274088277.png" class="card-img-top" alt=" ai-tools-for-students.png">
           <div class="card-body">
             <h5 class="card-title">Writers</h5>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga minus laborum dignissimos quae reiciendis a iure cupiditate iusto? Cumque eum necessitatibus odio quos voluptates fuga earum rem dolor omnis reiciendis.</p>
@@ -109,12 +122,12 @@
         </div>
       </div>
 <div class="container">
-<button style="background-color: lime; border-radius: 500px;padding:8px 8px 10px 10px; border-style: none;  text-align: center; justify-content:center; align-items: center; margin-top: 25px;">And more than other 50 destinations</button>
+<button class="button-hover" style="background-color: lime; border-radius: 500px;padding:8px 8px 10px 10px; border-style: none;  text-align: center; justify-content:center; align-items: center; margin-top: 25px;">And more than other 50 destinations</button>
 </div>
 </div>
 
 
-<section style="background-color:rgba(230, 229, 229, 0.637); margin: 60px; max-height: 850px;" class="section2">
+<section style="background-color:rgba(229, 230, 230, 0.637); margin: 60px; max-height: 850px;" class="section2">
    <div class="container-fluid">
         <img src="img/output-removebg-preview.png" alt="" style="margin-top: 30px;" class="img3">
     </div>
@@ -127,84 +140,183 @@
     </div>
 </section> 
 
-<section>
-    <div class="container-fluid">
-        <h1 style="margin-left: 80px;">Testimonials</h1>
-        <article class="art5" >
-        <p style="display: flex; font-size: 12px; padding-left: 450px; margin-top:-50px;">Great work   <br>Placeat magnam consectetur <br> non laudantium voluptas dolor sed,<br> culpa minus autem neque esse adipisci. <br> Ipsam adipisci dolor ducimus! Hic, itaque aliquid. Earum.</p>
-        <p style="display: flex; font-size: 12px; padding-left:950px; margin-top:-105px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.  <br>Placeat magnam consectetur <br> non laudantium voluptas dolor sed,<br> culpa minus autem neque esse adipisci. <br> Ipsam adipisci dolor ducimus! Hic, itaque aliquid. Earum.</p>
-   
-    </div>
-    <div class="container mt-5 pt-3" style="display: flex; justify-content: center; align-items: center;">
-        <div class="container">
-                    <p style="font-size: 14px; background-color: rgb(29, 233, 29); border-radius: 15px 15px 15px 15px; text-align: left; padding: 5px 5px 5px 5px; height:250px; width: 250px; padding-top: 55px; ">
-Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Eveniet nisi et adipisci recusandae a quia? <br>Quibusdam modi quidem veritatis culpa asperiores explicabo <br><img src="img/image-1735274013871.png" alt="" width="30px" height="30px" style="border-radius: 500px; margin-top: 25px; margin-left: 130px;">  <div style="font-size: 11px; margin-left: -200px; display: block; margin-top: 180px;">Omoniyi Ayoola <span style="display: block; text-align: center;">Tech bro</span></div>
-</p>
-</div>
-        <div class="container">
-                    <p style="font-size: 14px; background-color: lightblue; border-radius: 15px 15px 15px 15px; text-align: left; padding: 5px 5px 5px 5px; height:250px; width: 250px; padding-top: 55px; ">
-Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Eveniet nisi et adipisci recusandae a quia? <br>Quibusdam modi quidem veritatis culpa asperiores explicabo <br><img src="img/image-1735274013871.png" alt="" width="30px" height="30px" style="border-radius: 500px; margin-top: 25px; margin-left: 130px;">  <div style="font-size: 11px; margin-left: -200px; display: block; margin-top: 180px;">Omoniyi Ayoola <span style="display: block; text-align: center;">Tech bro</span></div>
-</p>
-</div>
-        <div class="container">
-                    <p style="font-size: 14px; background-color: plum; border-radius: 15px 15px 15px 15px; text-align: left; padding: 5px 5px 5px 5px; height:250px; width: 250px; padding-top: 55px; ">
-Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Eveniet nisi et adipisci recusandae a quia? <br>Quibusdam modi quidem veritatis culpa asperiores explicabo <br><img src="img/image-1735274013871.png" alt="" width="30px" height="30px" style="border-radius: 500px; margin-top: 25px; margin-left: 130px;">  <div style="font-size: 11px; margin-left: -200px; display: block; margin-top: 180px;">Omoniyi Ayoola <span style="display: block; text-align: center;">Tech bro</span></div>
-</p>
-</div>
-</article>
-</div>
-</section>
+<section class="testimonials-section fade-in delay-2">
 
 
-<section style="background-color: #000000; border-radius:30px 30px 30px 30px; margin-top: 30px; max-height: 950px;">
-<div class="container-fluid container10">
-    <h1 class="text-light pt-5 ps-3 plan"> Choose your favourite plan</h1>
-    <div class="container container1 text-center pt-5">
-        <div class="row row-cols-4">
-          <div class="col col1"> <span class="span2">Subscription level</span> <p>Number of Users</p> <p>Customer Support</p> <p>Monthly Requests</p> <p>Data Packages</p> <p>Flexible Cancellation</p> <p>Monthly Cost</p> <p>Ayo</p></div>
-          <div class="col"><button style="background-color: lime;border-radius: 8px 8px 8px 8px; padding: 4px 4px 4px 70px; " class="btn3">Basic</button> <p>1</p> <p>online</p> <p>1000</p> <p>1GB</p> <p>Available</p> <h3>$9.99</h3></div>
-          <div class="col"><button style="background-color: lightblue;border-radius: 8px 8px 8px 8px; padding: 4px 4px 4px 70px;"class="btn3">Advanced</button> <p>up to 8</p> <p>Priority</p> <p>5000</p> <p>5GB</p> <p>Available</p> <h3>$19.99</h3></div>
-          <div class="col"><button style="background-color: plum;border-radius: 8px 8px 8px 8px; padding: 4px 4px 4px 70px;"class="btn3">Premimum</button> <p>Unlimited</p> <p>Premium</p> <p>Unlimited</p> <p>10GB</p> <p>Available</p> <h3>$39.99</h3></div>
-          <div class="col"></div>
-          <div class="col"></div>
+    <!-- Testimonial cards preserved in horizontal layout -->
+    <div class="container-fluid mt-5 pt-3" style="display: flex; flex-wrap: wrap; justify-content: center;">
+        <!-- Card 1 -->
+        <div style="margin: 10px; flex: 0 0 auto; max-width: 250px; min-width: 250px;">
+            <div style="font-size: 14px; background-color: rgb(29, 233, 29); border-radius: 15px; text-align: left; padding: 20px; height: 250px; width: 100%; position: relative;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                Eveniet nisi et adipisci recusandae a quia?<br>
+                Quibusdam modi quidem veritatis culpa asperiores explicabo<br>
+                
+                <div style="position: absolute; bottom: 15px; left: 20px; right: 20px; display: flex; align-items: center;">
+                    <img src="./img/image-1735274013871.png" alt="Profile" width="30" height="30" style="border-radius: 50%;">
+                    <div style="margin-left: 10px; font-size: 11px;">
+                        Omoniyi Ayoola
+                        <span style="display: block;">Tech bro</span>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-</div>
-
-<div class="card-group1 bg-dark text-dark">
-  <div class="card">
-    <img src="img/image-1735274088277.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">basic</h5>
-      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum quae dolores expedita quis, quam velit dolorum ipsum, voluptatem error hic enim, magnam impedit voluptates temporibus fugit a commodi doloribus nostrum?</p>
+        
+        <!-- Card 2 -->
+        <div style="margin: 10px; flex: 0 0 auto; max-width: 250px; min-width: 250px;">
+            <div style="font-size: 14px; background-color: lightblue; border-radius: 15px; text-align: left; padding: 20px; height: 250px; width: 100%; position: relative;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                Eveniet nisi et adipisci recusandae a quia?<br>
+                Quibusdam modi quidem veritatis culpa asperiores explicabo<br>
+                
+                <div style="position: absolute; bottom: 15px; left: 20px; right: 20px; display: flex; align-items: center;">
+                    <img src="./img/image-1735274013871.png" alt="Profile" width="30" height="30" style="border-radius: 50%;">
+                    <div style="margin-left: 10px; font-size: 11px;">
+                        Omoniyi Ayoola
+                        <span style="display: block;">Tech bro</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Card 3 -->
+        <div style="margin: 10px; flex: 0 0 auto; max-width: 250px; min-width: 250px;">
+            <div style="font-size: 14px; background-color: plum; border-radius: 15px; text-align: left; padding: 20px; height: 250px; width: 100%; position: relative;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                Eveniet nisi et adipisci recusandae a quia?<br>
+                Quibusdam modi quidem veritatis culpa asperiores explicabo<br>
+                
+                <div style="position: absolute; bottom: 15px; left: 20px; right: 20px; display: flex; align-items: center;">
+                    <img src="./img/image-1735274013871.png" alt=" ai-tools-for-students.png" width="30" height="30" style="border-radius: 50%;">
+                    <div style="margin-left: 10px; font-size: 11px;">
+                        Omoniyi Ayoola
+                        <span style="display: block;">Tech bro</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="card">
-    <img src="img/image-1735274013871.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Premium</h5>
-      <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia hic beatae doloribus quam, consequatur, quo vel ratione corporis consectetur dolore suscipit laborum commodi eos modi esse nulla quae atque officiis.</p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="img/image-1735274088277.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Advanced</h5>
-      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga minus laborum dignissimos quae reiciendis a iure cupiditate iusto? Cumque eum necessitatibus odio quos voluptates fuga earum rem dolor omnis reiciendis.</p>
-    </div>
-  </div>
-</div>
-
-<div class="container d-flex try">
-<article class="container d-block m-0 p-0 text">
-  <h1 class="text-light d-block text-center h15" style="font-family: monospace;" id="h17">Try it right now</h1>
-  <p style="font-size: 12px; display: i; text-align: center; position: relative; top: 120px;" class="h13">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Beatae omnis inventore rem officiis explicabo praesentium animi, <br> dolor autem amet fuga eum nemo veniam </p>
-</article>
-
-<img src="img/output-removebg-preview.png" alt="" style="margin-left: 400px;  justify-content: center; align-items: center;" class="imgs">
-</div>
 </section>
 
+
+<section style="background-color: #000000; border-radius: 30px; margin-top: 30px; padding-bottom: 40px;" class="fade-in delay-3">
+    <div class="container-fluid container10">
+        <h1 class="text-light pt-5 ps-3 plan text-center text-md-start"> Choose your favourite plan</h1>
+        
+        <!-- Pricing table that works on both desktop and mobile -->
+        <div class="pricing-table-container mt-4">
+            <div class="pricing-table">
+                <!-- Table headers (subscription levels) -->
+                <div class="pricing-feature-name empty-cell"></div>
+                <div class="pricing-plan-header basic">
+                    <button class="plan-button basic-button button-hover">Basic</button>
+                </div>
+                <div class="pricing-plan-header advanced">
+                    <button class="plan-button advanced-button button-hover">Advanced</button>
+                </div>
+                <div class="pricing-plan-header premium">
+                    <button class="plan-button premium-button button-hover">Premium</button>
+                </div>
+                
+                <!-- Number of Users -->
+                <div class="pricing-feature-name">Number of Users</div>
+                <div class="pricing-feature-value">1</div>
+                <div class="pricing-feature-value">up to 8</div>
+                <div class="pricing-feature-value">Unlimited</div>
+                
+                <!-- Customer Support -->
+                <div class="pricing-feature-name">Customer Support</div>
+                <div class="pricing-feature-value">online</div>
+                <div class="pricing-feature-value">Priority</div>
+                <div class="pricing-feature-value">Premium</div>
+                
+                <!-- Monthly Requests -->
+                <div class="pricing-feature-name">Monthly Requests</div>
+                <div class="pricing-feature-value">1000</div>
+                <div class="pricing-feature-value">5000</div>
+                <div class="pricing-feature-value">Unlimited</div>
+                
+                <!-- Data Packages -->
+                <div class="pricing-feature-name">Data Packages</div>
+                <div class="pricing-feature-value">1GB</div>
+                <div class="pricing-feature-value">5GB</div>
+                <div class="pricing-feature-value">10GB</div>
+                
+                <!-- Flexible Cancellation -->
+                <div class="pricing-feature-name">Flexible Cancellation</div>
+                <div class="pricing-feature-value">Available</div>
+                <div class="pricing-feature-value">Available</div>
+                <div class="pricing-feature-value">Available</div>
+                
+                <!-- Monthly Cost -->
+                <div class="pricing-feature-name">Monthly Cost</div>
+                <div class="pricing-feature-value price">$9.99</div>
+                <div class="pricing-feature-value price">$19.99</div>
+                <div class="pricing-feature-value price">$39.99</div>
+                
+                <!-- Ayo row (keeping this as it was in original) -->
+                <div class="pricing-feature-name">Ayo</div>
+                <div class="pricing-feature-value"></div>
+                <div class="pricing-feature-value"></div>
+                <div class="pricing-feature-value"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <!-- Pricing Cards Section
+<section class="card-section bg-dark">
+  <div class="card-group1">
+    <!-- Basic Plan Card -->
+    <!-- <div class="card">
+      <img src="img/image-1735274088277.png" class="card-img-top" alt="Basic Plan">
+      <div class="card-body">
+        <h5 class="card-title">Basic</h5>
+        <p class="card-text">
+          Perfect for individuals. Includes 1 user, 1GB of data, and online customer support. Limited to 1000 monthly requests.
+        </p>
+        <div class="price">$9.99/month</div>
+      </div>
+    </div>
+
+    <!-- Premium Plan Card -->
+    <!-- <div class="card">
+      <img src="img/image-1735274013871.png" class="card-img-top" alt="Premium Plan">
+      <div class="card-body">
+        <h5 class="card-title">Premium</h5>
+        <p class="card-text">
+          Ideal for small teams. Supports up to 8 users, 5GB of data, and priority customer support. Up to 5000 monthly requests.
+        </p>
+        <div class="price">$19.99/month</div>
+      </div>
+    </div> -->
+
+    <!-- Advanced Plan Card -->
+    <!-- <div class="card">
+      <img src="img/image-1735274088277.png" class="card-img-top" alt="Advanced Plan">
+      <div class="card-body">
+        <h5 class="card-title">Advanced</h5>
+        <p class="card-text">
+          Best for large teams. Unlimited users, 10GB of data, and premium customer support. Unlimited monthly requests.
+        </p>
+        <div class="price">$39.99/month</div>
+      </div>
+    </div>
+  </div>
+</section> 
+
+<!-- Try It Now Section -->
+<section class="try-section mt-5">
+  <div class="container try-container pulse-animation">
+    <article class="text-content">
+      <h1 class="text-light text-center">Try it right now</h1>
+      <p class="text-light text-center">
+        Experience the power of BoeAI today. Join thousands of satisfied users and revolutionize your workflow.
+      </p>
+    </article>
+    <img src="img/output-removebg-preview.png" alt="Try BoeAI" class="try-image">
+  </div>
+</section>
 
 
 <footer>
@@ -243,23 +355,26 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Eveniet nisi et adi
 </footer>
 
 <div class="footer5">
-<ul>
-  <li>
-    <a href="">Home</a>
-    <a href="">Features</a>
-    <a href="">Pricing</a>
-    <a href="">Testimonials</a>
-  </li>
-  <li>
-    <a href="">Instagram</a>
-    <a href="">Facebook</a>
-    <a href="">Twitter</a>
-  </li>
-  <div class="copyright">&copy; 2024 BoeAI</div>
-</ul>
-
+  <div class="footer-content">
+    <div class="footer-links">
+      <div class="footer-section">
+        <h4>Navigation</h4>
+        <a href="">Home</a>
+        <a href="">Features</a>
+        <a href="">Pricing</a>
+        <a href="">Testimonials</a>
+      </div>
+      <div class="footer-section">
+        <h4>Follow Us</h4>
+        <a href="">Instagram</a>
+        <a href="">Facebook</a>
+        <a href="">Twitter</a>
+      </div>
+    </div>
+    <div class="copyright">&copy; 2024 BoeAI</div>
+  </div>
 </div>
  </div>
-<script src="js/bootstrap.min.js"></script>
+<script defer src="js/bootstrap.min.js"></script>
 </body>
 </html>
